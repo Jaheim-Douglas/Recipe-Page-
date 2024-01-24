@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#omelette {
+    width: 100%;
+}
+
+.nutrition-info {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px lightgray solid;
+}
+
+.nutrition-info-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#omelette-recipe {
+    color: hsl(24, 5%, 18%);
+    padding: 25px;
+}
+
+#omelette-recipe h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: lighter;
+}
+
+#omelette-recipe p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+#omelette-recipe h1 {
+    text-align: left;
+}
+
+#omelette-recipe p {
+    text-align: left;
+    line-height: 1.4rem;
+}
+
+#pre-time {
+    padding: 25px;
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit', sans-serif;
+    width: 75%;
+    margin: auto;
+}
+
+#pre-time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+#pre-time ul {
+    color: hsl(332, 51%, 32%);
+}
+
+.list-item {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+span {
+    color: hsl(30, 10%, 34%);
+    font-weight: bolder;
+}
+
+ul li {
+    padding: 10px;
+}
+
+#ingredints {
+    padding: 25px;
+}
+
+#ingredints h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: lighter;
+}
+
+#ingredints ul {
+    color: hsl(14, 45%, 36%);
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#Instructions {
+    padding: 25px;
+}
+
+#Instructions h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: lighter;
+}
+
+#Instructions ol {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(14, 45%, 36%);
+    border-bottom: 1px lightgray solid;
+}
+
+ol li {
+    padding: 10px;
+}
+
+#nutrition {
+    padding: 25px;
+}
+
+#nutrition h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: lighter;
+}
+
+#nutrition p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition-items {
+    color: hsl(14, 45%, 36%);
+}
+
+@media(min-width: 475px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+        padding: 75px;
+        margin: 5px;
+    }
+
+    #omelette-container {
+        width: 50%;
+        background-color: white;
+        margin: auto;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    #omelette {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
